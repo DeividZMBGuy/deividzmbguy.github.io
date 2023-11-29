@@ -1,0 +1,54 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fondo {
+    position: fixed; 
+    top: -50%;
+    left: -50%; 
+    width: 200%;
+    height: 200%;
+  }
+
+  /*ESTA PARTE AFECTA LA IMAGEN*/
+  .fondo img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+
+    z-index: 0;
+  }
+
+  .titulo{
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    font-size: 5em;
+    padding: 1%;
+  }
+
+  .descripcion{
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    width: 50%;
+    left: 25%;
+    margin-top: 10%;
+    font-size: 1.5em;
+    padding: 1%;
+  }
+
+  .trailer {
+    position: relative;
+    display: grid; /*CREA UNA CUADRICULA*/
+    place-items: center; /*POSICIONA EL DIV AL CENTRO HORIZONTAL DE LA CUADRICULA*/
+    z-index: 1;
+    padding: 1%;
+  }
